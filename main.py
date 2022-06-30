@@ -62,7 +62,7 @@ while game_continue:
   caesar(text_para=text, shift_para=shift, direction_para=direction)
   #ask the user if they want to restart the cipher program?
   #Hint: Try creating a while loop that continues to execute the program if the user types 'yes'. 
-  answer = input("Do you want to restart the cipher program? Type 'yes' or 'no'.\n").lower()
-  if answer == "no":
+  answer = input("Do you want to close the cipher program? Type 'yes' if so.\n").lower()
+  if answer == "yes":
     game_continue = False
     print("Goodbye")
