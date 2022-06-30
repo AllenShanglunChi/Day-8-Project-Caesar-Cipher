@@ -1,6 +1,6 @@
 Python Pro Bootcamp
 # Day-8-Project-Caesar-Cipher
-This program performs the following:
+This encoding and decoding program performs the following:
 #encode shift each letter of the 'text' forwards in the alphabet by the shift amount to encrypt text.  
   #e.g. 
   #text = "hello"
